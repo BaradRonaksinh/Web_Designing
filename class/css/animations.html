@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: black;
+        }
+        .main{
+            height: 60px;
+            width: 50px;
+            background-color: #5ef039;
+            animation-name: pal;
+            animation-duration: 5s;
+        }
+        .main2{
+            height: 60px;
+            width: 50px;
+            background-color: #18cc96;
+            animation-name: pal;
+            animation-duration: 10s;
+        }
+        .main3{
+            height: 60px;
+            width: 50px;
+            background-color: #241c9b;
+            animation-name: pal;
+            animation-duration: 20s;
+        }
+        @keyframes pal {
+            from{
+                background-color: #18cc96;
+            }
+            to{
+                background-color: #b6f508;
+            }
+        }
+        .move{
+            height: 100px;
+            width: 100px;
+            background-color: #000000;
+            border: 3px solid rgb(0, 0, 0);
+            border-top-color: #18cc96;
+            
+            
+            border-radius: 50%;
+            position: relative;
+            animation-name:jeel ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:normal;
+            animation:jeel 1s linear infinite;
+        }
+        @keyframes jeel {
+            0%{
+                top: 0;
+                left: 0;
+                transform: rotate(0deg);
+
+            }
+            100%{
+                
+                top: 0;
+                left: 0;
+                transform:rotate(360deg);
+            }
+        }
+
+        .cr{
+            height: 100px;
+            width: 100px;
+            background-color: #b6f508;
+            margin:14px 0px 14px 0px;
+            position: relative;
+            animation-name:time ;
+            animation-duration: 10s;
+        }
+
+        #id1{
+            animation-timing-function: linear;
+        }
+        #id2{
+            animation-timing-function:ease;
+        }
+        #id3{
+            animation-timing-function: ease-in;
+        }
+        #id4{
+            animation-timing-function: ease-out;
+        }
+        #id5{
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes time {
+            0%{
+                top: 0;
+                left: 0;
+                transform: rotate(0deg);
+            }
+            100%{
+                top: 0;
+                left: 0;
+                transform:rotate(360deg);
+            }
+        }
+
+        .pr{
+            height: 70px;
+            width: 70px;
+            margin: 11px;
+            background-color: #000000;
+            border: 3px solid rgb(0, 0, 0);
+            border-top-color: #ff0000;
+            
+            
+            border-radius: 50%;
+            position: relative;
+            animation-name:jeel ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:normal;
+            animation:niki 1s linear infinite;
+        }
+
+
+        @keyframes niki {
+            0%{
+                top: 0;
+                left: 0;
+                transform: rotate(360deg);
+
+            }
+            100%{
+                
+                top: 0;
+                left: 0;
+                transform:rotate(-360deg);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- <div class="main"></div>
+    <div class="main2"></div>
+    <div class="main3"></div> -->
+
+    <div class="move">
+        <div class="pr"></div>
+    </div>
+<!-- 
+    <div class="cr" id="id1">Linear</div>
+    <div class="cr" id="id2">ease</div>
+    <div class="cr" id="id3">ease-in</div>
+    <div class="cr" id="id4">ease-out</div>
+    <div class="cr" id="id5">ease-in-out</div> -->
+
+    <!-- .shadow {
+        width: 200px;
+        height: 200px;
+        background-color: #fff;
+        box-shadow: 
+            0 0 10px rgba(255, 0, 0, 0.5),  /* Red */
+            0 0 20px rgba(0, 255, 0, 0.5),  /* Green */
+            0 0 30px rgba(0, 0, 255, 0.5);  /* Blue */
+    } -->
+</body>
+</html>

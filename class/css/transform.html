@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            perspective: 400px;
+        }
+
+        .main {
+            height: 200px;
+            width: 300px;
+            background-color: yellow;
+            margin: 200px;
+            border: 2px solid palevioletred;
+            /* transform: rotate(35deg); */
+            /*transform: rotateX(190deg);*/
+            /*transform: rotateY(125deg);*/
+            transform: matrix3d(35deg);
+        }
+        .main1 {
+            height: 200px;
+            width: 300px;
+            background-color: yellow;
+            margin: 200px;
+            border: 2px solid palevioletred;
+            transform: skewX(30deg);
+            /* transform: rotate(35deg); */
+            /*transform: rotateX(190deg);*/
+            /*transform: rotateY(125deg);*/
+            /*transform: matrix3d(35deg);*/
+        }
+        .main2 {
+            height: 200px;
+            width: 300px;
+            background-color: yellow;
+            margin: 200px;
+            border: 2px solid palevioletred;
+            transform: skewY(30deg);
+            /* transform: rotate(35deg); */
+            /*transform: rotateX(190deg);*/
+            /*transform: rotateY(125deg);*/
+            /*transform: matrix3d(35deg);*/
+        }
+        .scale{
+            height:40px;
+            width: 60px;
+            text-align: center;
+            justify-content: center;
+            background-color: yellow;
+            margin: 200px;
+            border: 2px solid palevioletred;
+        }
+        .scale:hover{
+            height:40px;
+            width: 60px;
+            text-align: center;
+            justify-content: center;
+            background-color: rgb(221, 221, 30);
+            margin: 200px;
+            border: 2px solid rgb(187, 16, 73);
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        hello
+    </div>
+    <div class="main1">
+        hello
+    </div>
+    <div class="main2">
+        hello
+    </div>
+    <div class="scale">
+        ronak
+    </div>
+</body>
+
+</html>

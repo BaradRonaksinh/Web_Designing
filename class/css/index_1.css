@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* CSS for navbar START */
+    .navbar{
+        height: auto;
+        width: 100%;
+        padding: 15px;
+        background-color: #21243d;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo img{
+        height: 35px;
+    }
+    .list > ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        gap: 40px;
+    }
+    .list > ul > li > a{
+        text-decoration: none;
+        color: white;
+    }
+/* CSS for navbar END */
+
+/* CSS for section-1 START */
+    .section_1{
+        height: auto;
+        width: auto;
+        text-align: center;
+        color: white;
+    }
+    .images_bg{
+        height: 90vh;
+        width: auto;
+        background-image: url(images/main_1.png);
+        background-size: cover;
+        background-position: center center;
+    }
+    .cover_sec_1{
+        height: 90vh;
+        width: auto;
+        background-color: rgba(255, 210, 126, 0.336);
+        margin-top: -626px;
+    }
+    .text{
+        position: absolute;
+        top: 150px;
+        left: 110px;
+    }
+    .h1_text{
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .p_text{
+        font-size: 25px;
+        text-align: start;
+    }
+    .order_now_btn{
+        height: 40px;
+        width: 200px;
+        background-color: #21243d;
+        color: white;
+        border: none;
+        font-size: 15px;
+        border-radius: 40px;
+        margin-left: -310px;
+        cursor: pointer;
+    }
+
+/* CSS for section-1 END */
+
+/* CSS for section-2 START */
+    .section_2{
+        height: auto;
+        width: 100%;
+        padding: 60px;
+        background-color: #21243d;
+    }
+    .text_2{
+        text-align: center;
+        color: white;
+    }
+    .text_2 h1{
+        font-size: 60px;
+    }
+    .text_2 p{
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .images_2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .images_2 > .img_1 > img{
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    /* .images_2 > .img_1{
+        border: 2px solid red;
+    } */
+    .images_2 > .img_1 > h1{
+        color: white;
+        text-align: center;
+    }
+    .images_2 > .img_1 > p{
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+    .extra_1{
+        height: 60px;
+        width: 160px;
+        margin-left: 140px;
+    }
+    .extra_2{
+        height: 120px;
+        width: 120px;
+        margin-top: -20px; /* max:-60px*/
+        margin-left: 804px; /*max px is 804*/
+    }
+    .extra_3{
+        margin-left: -1160px;
+    }
+    .extra_4{
+        height: 100px;
+        width: 100px;
+        margin-left: -120px;
+    }
+    .extra_5{
+        margin-left: 20px;
+        /* margin-top: 200px; */
+    }
+    .extra_6{
+        margin-left: 1180px;
+    }
+/* CSS for section-2 END */
+
+/* CSS for section-3 START */
+    .section_3{
+        height: auto;
+        width: 100%;
+        background-color: #ffd17e;
+        padding: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .images_3 img{
+        border-radius: 50%;
+    }
+    .text_3 > h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: #21243d;
+        text-align: left;
+    }
+    .text_3 > p{
+        text-align: left;
+        font-size: 22px;
+        color: #21243d;
+    }
+    .order_btn_3{
+        height: 40px;
+        width: 200px;
+        background-color: #21243d;
+        color: white;
+        border: none;
+        font-size: 15px;
+        border-radius: 40px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+    .extra_7{
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    .extra_8{
+        margin-left: 200px;
+    }
+/* CSS for section-3 END */
+
+/* CSS for section-4 START */
+    .section_4{
+        height: auto;
+        width: 100%;
+        padding: 80px;
+        background-color: #21243d;
+    }
+    .text_4 h1{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .text_4 p{
+        color: white;
+        font-size: 23px;
+        text-align: center;
+    }
+    .store_detail{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .store_detail > .circle{
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+        border: 4px solid white;
+    }
+    .circle{
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .circle:hover{
+        box-shadow: 0px 0px 15px white;
+    }
+    .circle h1{
+        font-size: 60px;
+    }
+    .circle p{
+        font-size: 21px;
+        color: white;
+    }
+/* CSS for section-4 END */
+
+/* CSS  for section-5 START */
+    .section_5{
+        height: auto;
+        width: 100%;
+        padding: 80px;
+        background-color: #ffd17e;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .text_5 > h1,p{
+        color: #21243d;
+        text-align: start;
+    }
+    .text_5 > h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .text_5 > p{
+        font-size: 21px;
+    }
+    .image_5 > img{
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+    }
+/* CSS  for section-5 END */
+
+/* CSS for section-6 START */
+    .section_6{
+        height: auto;
+        width: 100%;
+    }
+    .image_6_bg{
+        height: 100vh;
+        width: auto;
+        background-image: url(images/main_2.png);
+        background-size: cover;
+        background-position: center center;
+    }
+    .image_6_cover{
+        height: 100vh;
+        width: auto;
+        margin-top: -695px;
+        background-color: rgba(33, 36, 61, 0.904);
+    }
+    .image_6_cover img{
+        margin-left: 550px;
+        margin-top: 70px;
+        border-radius: 50%;
+    }
+    .image_6_cover p{
+        margin-top: 50px;
+        letter-spacing: 1px;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    .image_6_cover h2{
+        margin-top: 50px;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+    }
+/* CSS for section-6 END */
+
+/* CSS for section-7 START */
+    .section_7{
+        height: auto;
+        width: 100%;
+        background-color: #ffd17e;
+        padding: 80px;
+    }
+    .text_7 > h1,p{
+        text-align: center;
+        color: #21243d;
+    }
+    .text_7 h1{
+        margin-top: 40px;
+        font-size: 60px;
+    }
+    .text_7 p{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .mailbox{
+        margin-top: 50px;
+        margin-left: 380px;
+    }
+    .mailbox .input_mail{
+        height: 35px;
+        width: 400px;
+        border-radius: 20px;
+        padding-left: 15px;
+        border: none;
+    }
+    .mailbox .subs_btn{
+        height: 35px;
+        width: 140px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background-color: #21243d;
+        margin-left: -40px;
+    }
+/* CSS for section-7 END */
+
+/* CSS for footer START */
+    .footer{
+        height: auto;
+        width: 100%;
+        padding: 100px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer_title h1{
+        font-size: 60px;
+        color: white;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    .footer_title p{
+        font-size: 20px;
+        color: white;
+        text-align: start;
+    }
+    .contacticon{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .contacticon .icon_bg{
+        height: 30px;
+        width: 30px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    .contacticon .icon_bg i{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .footer_list{
+        display: flex;
+        gap: 60px;
+        align-items: center;
+    }
+    .footer_list > ul{
+        list-style-type: none;
+    }
+    .footer_list_title{
+        font-size: 22px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .footer_list > ul > li{
+        padding-bottom: 15px;
+    }
+    .black_color{
+        color: black;
+    }
+/* CSS for footer END */

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(to right, #cc33ff 18%, #ff66ff 79%);
+}
+
+.body {
+    height: 529px;
+    width: auto;
+
+}
+
+.login_form {
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 355px;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
+.form {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+.tb{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.log-sign{
+    height: 30px;
+    width: 100px;
+    font-family: "Montserrat", sans-serif;
+    background:linear-gradient(to right, #cc33ff 18%, #ff66ff 79%);
+    border: none;
+    border-radius: 7px;
+}
+.sign{
+    height: 30px;
+    width: 100px;
+    background:white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 7px;
+}
+
+.info{
+    height: 30px;
+    width: 202px;
+    border-radius: 7px;
+    border: 1px solid rgb(129, 128, 128);
+}
+
+.lg-btn{
+    height: 30px;
+    width: 202px;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    background:linear-gradient(to right, #cc33ff 18%, #ff66ff 79%);
+    border: none;
+    border-radius: 7px;
+}

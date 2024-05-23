@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav {
+            background-color: yellow;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            background-color: aqua;
+            height: 30px;
+            width: 100px;
+        }
+
+        .link>ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 10px;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .search {
+            background-color: blueviolet;
+            height: 30px;
+            width: 100px;
+        }
+
+        .first {
+            background-color: cadetblue;
+            padding: 20px;
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .first>.box {
+            background-color: black;
+            height: 50px;
+            width: 50px;
+        }
+
+        .second {
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .second>.box {
+            background-color: rgb(131, 255, 207);
+            height: 100px;
+            width: 100px;
+        }
+
+        @media only screen and (max-width:600px) {
+            .nav {
+                background-color: yellow;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .link>ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 10px;
+                flex-direction: column;
+            }
+
+            .first {
+                background-color: cadetblue;
+                padding: 20px;
+                height: auto;
+                width: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .second {
+                background-color: rgb(0, 0, 0);
+                padding: 20px;
+                height: auto;
+                width: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo"></div>
+        <div class="link">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </div>
+        <div class="search"></div>
+    </div>
+    <section class="first">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+    <section class="second">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+</body>
+
+</html>
